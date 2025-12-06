@@ -1,6 +1,6 @@
 import './App.css'
 import About from './pages/about/About'
-import Prdoucts from './pages/Products/Prdoucts'
+import Prdoucts from './pages/Products/Products'
 import LayOut from './pages/layOut/layOut'
 import { Routes, Route } from 'react-router-dom'
 import Slug from './pages/Slug/Slug'
