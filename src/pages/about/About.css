@@ -1,0 +1,34 @@
+.about-wrapper {
+  padding: 50px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.about-card {
+  background: #0e0e0e;
+  padding: 40px;
+  max-width: 800px;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.4);
+  border: 1px solid #222;
+  color: #ddd;
+}
+
+.about-card h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #00ff88;
+  margin-bottom: 20px;
+}
+
+.about-card p {
+  line-height: 1.7;
+  font-size: 18px;
+  color: #ccc;
+  margin: 15px 0;
+}
+
+.highlight {
+  color: #00ff88;
+  font-weight: 600;
+}

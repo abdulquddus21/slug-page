@@ -1,0 +1,80 @@
+/* HEADER WRAPPER */
+.header {
+  min-width: 100%;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #0e0e0e;
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-radius: 20px;
+}
+
+/* LOGO */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #00ff88;
+  letter-spacing: 1px;
+}
+
+/* NAV LINKS */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  color: #eee;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00ff88;
+  transform: translateY(-2px);
+}
+
+/* RIGHT ACTION BUTTON */
+.login-btn {
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background: #00ff88;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background: #00d76f;
+}
+
+/* MOBILE MENU ICON */
+.menu-icon {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 780px) {
+  .nav {
+    display: none;
+  }
+
+  .actions {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
